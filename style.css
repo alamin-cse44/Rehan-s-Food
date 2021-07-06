@@ -1,0 +1,135 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.welcome-section{
+    font-size: 30px;
+    color: white;
+    padding-left: 5%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    background: black;
+}
+.welcome-section img{
+   width: 100px;
+   border-radius: 40%;
+   padding-top: 1px;
+}
+.welcome-section .image{
+    width: 10%;
+    padding-top: 3%;
+}
+
+span{
+    color: tomato;
+}
+
+.flexible-container{
+   padding-left: 5%; 
+   margin-bottom: 150px;
+   display: flex;   
+}
+.half-width{
+   width: 40%;
+   padding: 5%;
+}
+.tips-section{
+    background: url("images/Frame\ 59.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 5px 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.about-section{
+    background: url("images/Frame\ 58.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.person-img{
+    width: 400px;
+}
+
+.recipie-writing{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.recipie-img{
+    display: flex;
+    margin-bottom: 150px;
+}
+.recipie-img div{
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 1%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 40px rgb(231, 180, 180);
+}
+.food-img{
+    width: 300px;
+}
+
+.social-media{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10%;
+    margin-bottom: 150px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 2%;
+}
+
+.social-media div{
+    width: 30%;
+}
+
+.order-section{
+    margin-bottom: 150px;  
+}
+.order-section img{
+    border-radius: 5%;
+}
+.order-section div{
+    height: 450px;
+}
+
+.food-title{
+    text-align: center;
+}
+#order{
+  text-align: center;
+}
+footer{
+    text-align: center;
+    background: rgb(117, 19, 207);
+}
+footer div{
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+footer div h2{
+    font-size: 30px;
+}
+
+footer p{
+    color: white;
+}
